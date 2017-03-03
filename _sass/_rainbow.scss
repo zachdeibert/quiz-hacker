@@ -1,0 +1,53 @@
+@-webkit-keyframes rainbow {
+	0% {
+		background-color: #45a3e5;
+	}
+	17% {
+		background-color: #33cccc;
+	}
+	34% {
+		background-color: #66bf39;
+	}
+	51% {
+		background-color: #ffa602;
+	}
+	67% {
+		background-color: #eb670f;
+	}
+	84% {
+		background-color: #ff3355;
+	}
+	100% {
+		background-color: #864cbf;
+	}
+}
+@keyframes rainbow {
+	0% {
+		background-color: #45a3e5;
+	}
+	17% {
+		background-color: #33cccc;
+	}
+	34% {
+		background-color: #66bf39;
+	}
+	51% {
+		background-color: #ffa602;
+	}
+	67% {
+		background-color: #eb670f;
+	}
+	84% {
+		background-color: #ff3355;
+	}
+	100% {
+		background-color: #864cbf;
+	}
+}
+body {
+	-webkit-animation: rainbow 20s infinite;
+	animation: rainbow 20s infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+	background-color: #45a3e5;
+}

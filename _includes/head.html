@@ -3,3 +3,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Quiz Hacker</title>
+
+{% if page.includeMaterial %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+{% endif %}
+<link rel="stylesheet" href="css/{{ page.page }}.css" />
+{% if page.includeMaterial %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+{% endif %}
+<script src="js/{{ page.page }}.js"></script>

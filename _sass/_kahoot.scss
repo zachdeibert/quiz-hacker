@@ -1,0 +1,51 @@
+body {
+    overflow: hidden;
+}
+#connect-screen {
+    height: 100vh;
+    -webkit-transform: translateY(40%);
+    -ms-transform: translateY(40%);
+    transform: translateY(40%);
+}
+#connect-screen .content {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#connect-screen .wrapper {
+    width: 300px;
+    -webkit-transform: translateX(50vw);
+    -ms-transform: translateX(50vw);
+    transform: translateX(50vw);
+    margin-left: -150px;
+    text-align: center;
+}
+#connect-screen img {
+    padding-bottom: 1.5rem;
+}
+#connect-screen input {
+    width: 294px;
+    height: 50px;
+    line-height: 50px;
+    border: 0.125rem solid #cccccc;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+#connect-screen input:focus {
+    border-color: #333333;
+}
+#connect-screen button {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 2;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    height: 50px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+}
